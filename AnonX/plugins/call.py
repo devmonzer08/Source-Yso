@@ -9,7 +9,7 @@ from AnonX.utils.database import get_assistant
 
 @app.on_message(filters.voice_chat_started)
 async def stcall(client: Client, message: Message): 
-      Startt = "**يلا تعال نرقص سوا 🥺❤️...**"
+      Startt = "**مــــش عاوز تسمع صوتــي خــــالــص🥺❤️...**"
       await message.reply_text(Startt)
 
 @app.on_message(filters.voice_chat_ended)
