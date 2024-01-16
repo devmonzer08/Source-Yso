@@ -50,7 +50,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="𖤍", callback_data=f"add_playlist {videoid}"
+                text="+", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/ZZZ7iZ"
+                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/huntersource"
                 )
         ],
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/ZZZ7iZ"
+                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/huntersource"
                 )
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/ZZZ7iZ"
+                text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/huntersource"
                 )
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                 text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/ZZZ7iZ"
+                 text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/huntersource"
             )
         ],
         [
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                  text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/ZZZ7iZ"
+                  text="⌞ 𝑯𝑵 𖢻 ⌯ 𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹˹🎧˼⁩", url=f"https://t.me/huntersource"
             )
         ],
         [
